@@ -1,0 +1,71 @@
+Assembling Program...
+Program Assembled.
+Run.
+
+PC = 10 | A = 0, DM = [0,0,0,0,0,0,0,0,0,0,]
+
+/*input value*/
+PC = 11 | A = 2, DM = [0,0,0,0,0,0,0,0,0,0,]
+
+/*storing accumulator in memory location 0
+PC = 12 | A = 2, DM = [2,0,0,0,0,0,0,0,0,0,]
+
+/*outputting accumulator to screen*/
+2
+
+PC = 13 | A = 2, DM = [2,0,0,0,0,0,0,0,0,0,]
+
+/*input value*/
+PC = 14 | A = 1, DM = [2,0,0,0,0,0,0,0,0,0,]
+
+/*storing accumulator in memory location 1
+PC = 15 | A = 1, DM = [2,1,0,0,0,0,0,0,0,0,]
+
+/*storing accumulator in memory location 2
+PC = 16 | A = 1, DM = [2,1,1,0,0,0,0,0,0,0,]
+
+/*outputting accumulator to screen*/
+1
+
+PC = 17 | A = 1, DM = [2,1,1,0,0,0,0,0,0,0,]
+
+/*input value*/
+PC = 18 | A = 1, DM = [2,1,1,0,0,0,0,0,0,0,]
+
+/*storing accumulator in memory location 3
+PC = 19 | A = 1, DM = [2,1,1,1,0,0,0,0,0,0,]
+
+/*outputting accumulator to screen*/
+1
+
+PC = 20 | A = 1, DM = [2,1,1,1,0,0,0,0,0,0,]
+
+/*loading memory location 4 to accumulator*/
+PC = 21 | A = 0, DM = [2,1,1,1,0,0,0,0,0,0,]
+
+/*loading memory location 0 to be added to accumulator value 0*/
+PC = 22 | A = 2, DM = [2,1,1,1,0,0,0,0,0,0,]
+
+/*storing accumulator in memory location 4
+PC = 23 | A = 2, DM = [2,1,1,1,2,0,0,0,0,0,]
+
+/*loading memory location 2 to accumulator*/
+PC = 24 | A = 1, DM = [2,1,1,1,2,0,0,0,0,0,]
+
+/*loading memory location 3 to be subtracted from accumulator value 1*/
+PC = 25 | A = 0, DM = [2,1,1,1,2,0,0,0,0,0,]
+
+/*storing accumulator in memory location 2
+PC = 26 | A = 0, DM = [2,1,0,1,2,0,0,0,0,0,]
+
+PC = 28 | A = 0, DM = [2,1,0,1,2,0,0,0,0,0,]
+
+/*loading memory location 4 to accumulator*/
+PC = 29 | A = 2, DM = [2,1,0,1,2,0,0,0,0,0,]
+
+/*outputting accumulator to screen*/
+2
+
+PC = 30 | A = 2, DM = [2,1,0,1,2,0,0,0,0,0,]
+
+Program complete
